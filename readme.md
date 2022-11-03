@@ -25,8 +25,8 @@ In project open the terminal and execute
 `docker-compose up -d`
 
 Verify in docker application by cmd ou application docker <br/>
-![Docker comand line](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Docker_ps.png)
-<br/> or <br/> <br/> 
+![Docker command line](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Docker_ps.png)
+<br/> or <br/> <br/>
 ![Docker in windows 11](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Docker_win11.png)
 
 In the Container terminal, update it and download wget with the commands <br/>
@@ -53,8 +53,15 @@ The send.js that sends to exchange, and from there it is responsible for playing
 And the receive.js that fetches the data in the queue. <br/>
 The two run independently.
 
+View in rabbitMQ the exchanges and the amount of messages with delay <br/>
+![exchanges](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/List_Exchanges.png) <br />
+![amount exchanges](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Msg_amount.png) <br />
+
 ## _OBS:_
 
 To remove all message delayed, because they only appear in the queue after delay time <br/>
 `rabbitmq-plugins disable rabbitmq_delayed_message_exchange` <br/>
 `rabbitmq-plugins enable rabbitmq_delayed_message_exchange`
+
+Expected outcome <br/>
+![Result](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Result.png)
