@@ -24,10 +24,10 @@ In project open the terminal and execute
 
 `docker-compose up -d`
 
-Verify in docker application by cmd ou application docker
-C:\Git\Queue\Docker_ps.png
-or
-C:\Git\Queue\Docker_win11.png
+Verify in docker application by cmd ou application docker <br/>
+![Docker comand line](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Docker_ps.png)
+<br/> or <br/> <br/> 
+![Docker in windows 11](https://github.com/MoisesDarlison/Rabbitmq-Delay/blob/main/images/Docker_win11.png)
 
 In the Container terminal, update it and download wget with the commands <br/>
 `apt-get update && apt upgrade` and `apt-get wget`
