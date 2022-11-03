@@ -12,7 +12,7 @@ https://www.cloudamqp.com/blog/rabbitmq_delayed_message_exchange_plugin_with_nod
 - Docker compose
 - Node
 
-`git clone BLABLABLA`
+`git clone https://github.com/MoisesDarlison/Rabbitmq-Delay.git`
 
 In project open the terminal and execute
 `npm i`
