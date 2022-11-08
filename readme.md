@@ -1,6 +1,6 @@
 # Simple project with RabbitMQ
 
-# _Message delay in RabbitMQ_ (_IN PROGRESS_)
+# _Message delay in RabbitMQ_
 
 Every project was based on the links below: <br />
 https://github.com/rabbitmq/rabbitmq-delayed-message-exchange <br />
